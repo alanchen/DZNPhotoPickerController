@@ -596,7 +596,7 @@ Returns the custom collection view layout.
  */
 - (void)shouldSearchPhotos:(NSString *)keyword
 {
-    if ((_previousService != _selectedService || _searchBar.text != keyword) && keyword.length > 1) {
+    if ((_previousService != _selectedService || _searchBar.text != keyword) && keyword.length >= 1) {
         
         _previousService = _selectedService;
         [self resetPhotos];
