@@ -188,7 +188,7 @@ Returns the custom collection view layout.
         _searchBar.backgroundColor = [UIColor whiteColor];
         _searchBar.barTintColor = [UIColor colorWithRed:202.0/255.0 green:202.0/255.0 blue:207.0/255.0 alpha:1.0];
         _searchBar.tintColor = self.view.window.tintColor;
-        _searchBar.keyboardType = UIKeyboardAppearanceDark;
+        _searchBar.keyboardAppearance = UIKeyboardAppearanceDark;
         _searchBar.text = self.navigationController.initialSearchTerm;
         _searchBar.delegate = self;
         

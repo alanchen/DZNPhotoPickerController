@@ -100,7 +100,7 @@
 - (void)presentPhotoSearch:(id)sender
 {
     DZNPhotoPickerController *picker = [DZNPhotoPickerController new];
-    picker.supportedServices = DZNPhotoPickerControllerService500px | DZNPhotoPickerControllerServiceFlickr | DZNPhotoPickerControllerServiceGoogleImages;
+    picker.supportedServices = DZNPhotoPickerControllerServiceFlickr;
     picker.allowsEditing = NO;
     picker.cropMode = DZNPhotoEditorViewControllerCropModeSquare;
     picker.initialSearchTerm = @"California";
